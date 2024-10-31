@@ -1,0 +1,14 @@
+<div class="counter">
+  <label for="timer-input">Stelle den Timer auf</label>
+  <br>
+  <span>
+<input type="number" min="1" step="1" [(ngModel)]="timerInput" [disabled]="isRunning" id="timer-input"> Sekunden</span>
+<br>
+<button (click)="toggleTimer()">{{ isRunning? "Stop": "Start" }}</button>
+
+  <p *ngIf="isRunning">{{remainingTime}} s</p>
+  <p *ngIf="hasfinished;">Der Timer ist abgelaufen</p>
+</div>
+
+
+

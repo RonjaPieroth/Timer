@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background: black;
+  border: 8px dotted yellow;
+  font-family: "Comic Sans MS",  cursive;
+}
+
+.container{ border: 8px dotted yellow;
+ margin: 10% auto;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+ background: chocolate;
+  border-radius: 50%;
+}
+
+h1{
+  margin-top: 15%;
+}
